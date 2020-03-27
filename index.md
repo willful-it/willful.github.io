@@ -3,8 +3,7 @@ title: Home
 layout: front
 ---
 ![image-title-here](/assets/img/orange_logo.png){:class="img-responsive"}
-\
-\
-\
-\
-info@willful.pt
+<br/>
+<br/>
+<br/>
+[info@willful.pt](info@willful.pt)
