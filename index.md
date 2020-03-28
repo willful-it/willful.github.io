@@ -9,11 +9,13 @@ layout: front
 
 <div class="columns ">
   <div class="column"></div>
+  <div class="column"></div>
   <div class="column is-centered">
-    <a href="mailto:info@willful.pt"><i class="fas fa-envelope"></i>&nbsp;Contact us</a><br/>
+    <a href="mailto:info@willful.pt"><i class="fas fa-envelope"></i>&nbsp;info@willful.pt</a><br/>
   </div>
   <div class="column is-centered">
-    <a href="https://medium.com/@willful"><i class="fab fa-medium"></i>&nbsp;Blog</a><br/>
+    <a href="https://medium.com/@willful" target="_new"><i class="fab fa-medium"></i>&nbsp;@willful</a><br/>
   </div>
+  <div class="column"></div>
   <div class="column"></div>
 </div>
