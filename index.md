@@ -2,7 +2,7 @@
 title: Home
 layout: front
 ---
-![image-title-here](/assets/img/orange_logo.png){:class="img-responsive"}
+![image-title-here](/assets/img/logo2.png){:class="img-responsive"}
 <br/>
 <br/>
 <br/>
