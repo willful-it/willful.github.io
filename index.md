@@ -60,7 +60,7 @@ layout: front
             <p>After 20 years building systems for telcos, commodities trading platforms, and financial institutions, we started Willful IT in 2019.</p>
             <p>We'd seen too many projects fail because infrastructure was an afterthought. Too many teams struggling with cloud complexity. Too much money wasted on over-engineered solutions that nobody needed.</p>
             <p>So we built Willful IT around three principles: Be <span class="highlight">intentional</span> about what you build. Be <span class="highlight">defiant</span> when everyone says "that's how it's always been done." Be <span class="highlight">perseverant</span> when things break at 3am.</p>
-            <p>We work with businesses that need infrastructure they can actually rely on. Check out our work on <a href="https://github.com/willful-it/" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+            <p>We work with businesses that need infrastructure they can actually rely on.</p>
         </div>
     </div>
 </section>
