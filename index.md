@@ -10,12 +10,15 @@ layout: front
             <div class="hero-content">
                 <h1 class="company-name">WILLFUL <span class="highlight-it">IT</span></h1>
                 <p class="slogan">INTENTIONAL.DEFIANT.PERSEVERANT</p>
-                <p class="tagline">Cloud-native solutions built with purpose since 2019</p>
+                <p class="tagline">Since 2019, we've been experts in <span class="highlight">AWS Cloud</span>, <span class="highlight">Kubernetes</span>, and <span class="highlight">AI-Assisted Development</span>. Building tomorrow's infrastructure with intention.</p>
+                <a href="mailto:info@willful.pt" class="cta-button">
+                    <i class="fas fa-envelope"></i> Get in Touch
+                </a>
             </div>
         </div>
     </div>
     <div class="scroll-indicator">
-        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-mouse"></i>
     </div>
 </section>
 
