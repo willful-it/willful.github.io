@@ -10,7 +10,7 @@ layout: front
             <div class="hero-content">
                 <h1 class="company-name">WILLFUL <span class="highlight-it">IT</span></h1>
                 <p class="slogan">INTENTIONAL.DEFIANT.PERSEVERANT</p>
-                <p class="tagline">Since 2019, we've been experts in <span class="highlight">AWS Cloud</span>, <span class="highlight">Kubernetes</span>, and <span class="highlight">AI-Assisted Development</span>. Building tomorrow's infrastructure with intention.</p>
+                <p class="tagline">We build <span class="highlight">cloud infrastructure</span> to support your business. Running in <span class="highlight">all AWS regions</span> worldwide, orchestrated with <span class="highlight">Kubernetes</span>, accelerated by <span class="highlight">AI</span>.</p>
                 <a href="mailto:info@willful.pt" class="cta-button">
                     <i class="fas fa-envelope"></i> Get in Touch
                 </a>
@@ -25,27 +25,27 @@ layout: front
 <!-- Services Section -->
 <section class="services-section">
     <div class="container">
-        <h2 class="section-title">Our Expertise</h2>
+        <h2 class="section-title">What We Do</h2>
         <div class="columns is-multiline">
             <div class="column is-4">
                 <div class="service-card">
                     <i class="fab fa-aws service-icon"></i>
                     <h3>AWS Cloud</h3>
-                    <p>Enterprise-grade cloud infrastructure designed for scale, security, and performance. We architect, deploy, and optimize AWS solutions that grow with your business.</p>
+                    <p>We deploy and manage infrastructure across all AWS regions globally. From a single service to multi-region architectures that handle millions of requests.</p>
                 </div>
             </div>
             <div class="column is-4">
                 <div class="service-card">
                     <i class="fas fa-dharmachakra service-icon"></i>
                     <h3>Kubernetes</h3>
-                    <p>Container orchestration that brings order to complexity. We design cloud-native applications that are resilient, scalable, and easy to manage.</p>
+                    <p>Container orchestration that actually works. We've deployed production clusters that run 24/7 without the headaches.</p>
                 </div>
             </div>
             <div class="column is-4">
                 <div class="service-card">
                     <i class="fas fa-brain service-icon"></i>
-                    <h3>AI-Assisted Development</h3>
-                    <p>Leveraging cutting-edge AI tools to accelerate development, improve code quality, and ship faster. Modern problems require modern solutions.</p>
+                    <h3>AI-Powered Development</h3>
+                    <p>Using AI tools to write better code faster. We ship features in days, not months, while maintaining quality.</p>
                 </div>
             </div>
         </div>
@@ -56,10 +56,11 @@ layout: front
 <section class="about-section">
     <div class="container">
         <div class="about-content">
-            <h2 class="section-title">Who We Are</h2>
-            <p>Founded in 2019, Willful IT emerged from a simple belief: technology should be <span class="highlight">intentional</span>, not accidental.</p>
-            <p>We're <span class="highlight">defiant</span> in our pursuit of excellence and <span class="highlight">perseverant</span> in solving complex challenges. Our team specializes in cloud-native solutions that empower businesses to scale without compromise.</p>
-            <p>Whether you're migrating to the cloud, orchestrating containers, or embracing AI-powered development workflows, we bring expertise, clarity, and determination to every project.</p>
+            <h2 class="section-title">Our Story</h2>
+            <p>After 20 years building systems for telcos, commodities trading platforms, and financial institutions, we started Willful IT in 2019.</p>
+            <p>We'd seen too many projects fail because infrastructure was an afterthought. Too many teams struggling with cloud complexity. Too much money wasted on over-engineered solutions that nobody needed.</p>
+            <p>So we built Willful IT around three principles: Be <span class="highlight">intentional</span> about what you build. Be <span class="highlight">defiant</span> when everyone says "that's how it's always been done." Be <span class="highlight">perseverant</span> when things break at 3am.</p>
+            <p>We work with businesses that need infrastructure they can actually rely on. Check out our work on <a href="https://github.com/willful-it/" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
         </div>
     </div>
 </section>
@@ -67,7 +68,7 @@ layout: front
 <!-- Contact Section -->
 <section class="contact-section">
     <div class="container">
-        <h2>Ready to build something exceptional?</h2>
+        <h2>Let's talk about your infrastructure</h2>
         <a href="mailto:info@willful.pt" class="cta-button">
             <i class="fas fa-envelope"></i> Get in touch
         </a>
