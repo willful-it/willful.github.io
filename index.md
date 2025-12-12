@@ -68,7 +68,7 @@ layout: front
 <!-- Contact Section -->
 <section class="contact-section">
     <div class="container">
-        <h2>Let's talk about your infrastructure</h2>
+        <h2>Ready to build something that works?</h2>
         <a href="mailto:info@willful.pt" class="cta-button">
             <i class="fas fa-envelope"></i> Get in touch
         </a>
