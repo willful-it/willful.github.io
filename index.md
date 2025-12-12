@@ -3,14 +3,17 @@ title: Willful IT | Intentional. Defiant. Perseverant.
 layout: front
 ---
 
-<div class="hero-content">
-    <h1 class="company-name">WILLFUL IT</h1>
-    <p class="slogan">intentional.defiant.perseverant</p>
-    <p class="tagline">Cloud-native solutions built with purpose since 2019</p>
-</div>
-
-</div>
-</div>
+<!-- Hero Section -->
+<section class="hero is-fullheight">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="hero-content">
+                <h1 class="company-name">WILLFUL IT</h1>
+                <p class="slogan">intentional.defiant.perseverant</p>
+                <p class="tagline">Cloud-native solutions built with purpose since 2019</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- Services Section -->
