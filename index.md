@@ -8,8 +8,8 @@ layout: front
     <div class="hero-body">
         <div class="container has-text-centered">
             <div class="hero-content">
-                <h1 class="company-name">WILLFUL IT</h1>
-                <p class="slogan">intentional.defiant.perseverant</p>
+                <h1 class="company-name">WILLFUL <span class="highlight-it">IT</span></h1>
+                <p class="slogan">INTENTIONAL.DEFIANT.PERSEVERANT</p>
                 <p class="tagline">Cloud-native solutions built with purpose since 2019</p>
             </div>
         </div>
@@ -62,7 +62,9 @@ layout: front
 <section class="contact-section">
     <div class="container">
         <h2>Ready to build something exceptional?</h2>
-        <a href="mailto:info@willful.pt" class="cta-button">Get in touch</a>
+        <a href="mailto:info@willful.pt" class="cta-button">
+            <i class="fas fa-envelope"></i> Get in touch
+        </a>
         <div class="contact-links">
             <a href="mailto:info@willful.pt" class="contact-link">
                 <i class="fas fa-envelope"></i> info@willful.pt

@@ -7,23 +7,23 @@
    1. CSS VARIABLES
    ============================================ */
 :root {
-    /* Color Palette */
-    --dark-bg: #0a0a0a;
-    --dark-bg-secondary: #0d0d0d;
-    --dark-bg-tertiary: #151515;
-    --dark-border: #252525;
+    /* Color Palette - Teal/Cyan Theme */
+    --dark-bg: #0a2f2f;
+    --dark-bg-secondary: #0d3838;
+    --dark-bg-tertiary: #104040;
+    --dark-border: #1a4f4f;
 
-    --electric-blue: #00d4ff;
-    --electric-blue-hover: #00b8e6;
-    --electric-blue-glow: rgba(0, 212, 255, 0.3);
+    --electric-cyan: #00e5cc;
+    --electric-cyan-hover: #00ccb8;
+    --electric-cyan-glow: rgba(0, 229, 204, 0.3);
 
-    --purple-accent: #a855f7;
-    --purple-hover: #9333ea;
-    --purple-glow: rgba(168, 85, 247, 0.2);
+    --teal-accent: #00b8a0;
+    --teal-hover: #009e87;
+    --teal-glow: rgba(0, 184, 160, 0.2);
 
     --text-primary: #ffffff;
-    --text-secondary: #b4b4b4;
-    --text-muted: #6b7280;
+    --text-secondary: #a0b8b8;
+    --text-muted: #6b8585;
 
     /* Typography */
     --font-display: 'Rajdhani', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -87,13 +87,13 @@ p {
 }
 
 a {
-    color: var(--electric-blue);
+    color: var(--electric-cyan);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: var(--electric-blue-hover);
+    color: var(--electric-cyan-hover);
 }
 
 /* ============================================
@@ -113,8 +113,8 @@ a:hover {
     right: 0;
     bottom: 0;
     background:
-        radial-gradient(circle at 20% 50%, var(--purple-glow) 0%, transparent 50%),
-        radial-gradient(circle at 80% 50%, var(--electric-blue-glow) 0%, transparent 50%);
+        radial-gradient(circle at 20% 50%, var(--teal-glow) 0%, transparent 50%),
+        radial-gradient(circle at 80% 50%, var(--electric-cyan-glow) 0%, transparent 50%);
     opacity: 0.3;
     pointer-events: none;
 }
@@ -137,10 +137,10 @@ a:hover {
     color: var(--text-primary);
     margin-bottom: 1rem;
     text-transform: uppercase;
-    background: linear-gradient(135deg, var(--text-primary) 0%, var(--electric-blue) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+}
+
+.highlight-it {
+    color: var(--electric-cyan);
 }
 
 .slogan {
@@ -150,7 +150,7 @@ a:hover {
     letter-spacing: 0.2em;
     color: var(--text-secondary);
     margin-bottom: 2rem;
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 
 .tagline {
@@ -190,20 +190,20 @@ a:hover {
 }
 
 .service-card:hover {
-    border-color: var(--electric-blue);
-    box-shadow: 0 0 30px var(--electric-blue-glow);
+    border-color: var(--electric-cyan);
+    box-shadow: 0 0 30px var(--electric-cyan-glow);
     transform: translateY(-5px);
 }
 
 .service-icon {
     font-size: 3.5rem;
-    color: var(--electric-blue);
+    color: var(--electric-cyan);
     margin-bottom: 1.5rem;
     transition: all 0.3s ease;
 }
 
 .service-card:hover .service-icon {
-    color: var(--purple-accent);
+    color: var(--teal-accent);
     transform: scale(1.1);
 }
 
@@ -238,7 +238,7 @@ a:hover {
     transform: translateX(-50%);
     width: 100px;
     height: 3px;
-    background: linear-gradient(90deg, transparent, var(--electric-blue), transparent);
+    background: linear-gradient(90deg, transparent, var(--electric-cyan), transparent);
 }
 
 .about-content {
@@ -258,7 +258,7 @@ a:hover {
 }
 
 .about-section .highlight {
-    color: var(--electric-blue);
+    color: var(--electric-cyan);
     font-weight: 500;
 }
 
@@ -282,20 +282,21 @@ a:hover {
     font-family: var(--font-display);
     font-size: 1.25rem;
     font-weight: 600;
-    color: var(--text-primary);
-    background: linear-gradient(135deg, var(--electric-blue), var(--purple-accent));
+    color: var(--dark-bg);
+    background: var(--electric-cyan);
     border: none;
     border-radius: 50px;
     text-decoration: none;
     transition: all 0.3s ease;
-    box-shadow: 0 0 20px var(--electric-blue-glow);
+    box-shadow: 0 0 20px var(--electric-cyan-glow);
     cursor: pointer;
 }
 
 .cta-button:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 30px var(--electric-blue-glow), 0 0 40px var(--purple-glow);
-    color: var(--text-primary);
+    box-shadow: 0 0 30px var(--electric-cyan-glow), 0 0 40px var(--teal-glow);
+    background: var(--electric-cyan-hover);
+    color: var(--dark-bg);
 }
 
 .contact-links {
@@ -313,7 +314,7 @@ a:hover {
 }
 
 .contact-link:hover {
-    color: var(--electric-blue);
+    color: var(--electric-cyan);
 }
 
 .contact-link i {
@@ -336,10 +337,10 @@ a:hover {
 
 @keyframes glow {
     0%, 100% {
-        box-shadow: 0 0 20px var(--electric-blue-glow);
+        box-shadow: 0 0 20px var(--electric-cyan-glow);
     }
     50% {
-        box-shadow: 0 0 30px var(--electric-blue-glow), 0 0 40px var(--purple-glow);
+        box-shadow: 0 0 30px var(--electric-cyan-glow), 0 0 40px var(--teal-glow);
     }
 }
 
@@ -496,14 +497,14 @@ a:hover {
    10. UTILITY CLASSES
    ============================================ */
 .text-gradient {
-    background: linear-gradient(135deg, var(--electric-blue), var(--purple-accent));
+    background: linear-gradient(135deg, var(--electric-cyan), var(--teal-accent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .glow-text {
-    text-shadow: 0 0 20px var(--electric-blue-glow);
+    text-shadow: 0 0 20px var(--electric-cyan-glow);
 }
 
 .mt-large {
