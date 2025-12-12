@@ -160,6 +160,22 @@ a:hover {
     margin: 0 auto;
 }
 
+.scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    color: var(--electric-cyan);
+    animation: bounce 2s infinite;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.scroll-indicator:hover {
+    color: var(--electric-cyan-hover);
+}
+
 /* ============================================
    5. SERVICES SECTION
    ============================================ */
@@ -332,6 +348,18 @@ a:hover {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    40% {
+        transform: translateX(-50%) translateY(-10px);
+    }
+    60% {
+        transform: translateX(-50%) translateY(-5px);
     }
 }
 

@@ -14,6 +14,9 @@ layout: front
             </div>
         </div>
     </div>
+    <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+    </div>
 </section>
 
 <!-- Services Section -->
