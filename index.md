@@ -72,8 +72,8 @@ layout: front
             <a href="mailto:info@willful.pt" class="contact-link">
                 <i class="fas fa-envelope"></i> info@willful.pt
             </a>
-            <a href="https://medium.com/@willful" target="_blank" rel="noopener noreferrer" class="contact-link">
-                <i class="fab fa-medium"></i> @willful
+            <a href="mailto:imobiliario@willful.pt" class="contact-link">
+                <i class="fas fa-envelope"></i> imobiliario@willful.pt
             </a>
         </div>
     </div>
