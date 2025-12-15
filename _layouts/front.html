@@ -1,20 +1,52 @@
 <!doctype html>
-<html>
+<html lang="pt">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Willful IT - Infraestrutura cloud intencional para o seu negócio" lang="pt">
+    <meta name="description" content="Willful IT - Intentional cloud infrastructure for your business" lang="en">
+
+    <!-- hreflang Tags for International SEO -->
+    <link rel="alternate" hreflang="pt" href="https://willful.pt/" />
+    <link rel="alternate" hreflang="en" href="https://willful.pt/" />
+    <link rel="alternate" hreflang="x-default" href="https://willful.pt/" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="/assets/css/bulma.css">
     <link rel="stylesheet" href="/assets/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/custom.css">
 </head>
 
 <body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="lang-toggle" aria-label="Mudar idioma" aria-expanded="false">
+            <span class="lang-flag">🇵🇹</span>
+            <span class="lang-code">PT</span>
+            <i class="fas fa-chevron-down"></i>
+        </button>
+        <ul class="lang-menu" hidden>
+            <li><a href="#" data-lang="pt" class="active" aria-label="Português">🇵🇹 Português</a></li>
+            <li><a href="#" data-lang="en" aria-label="English">🇬🇧 English</a></li>
+        </ul>
+    </div>
+
     {{ content }}
+
+    <!-- i18n Scripts -->
+    <script>
+        window.translations = {{ site.data.translations | jsonify }};
+    </script>
+    <script src="/assets/js/i18n.js"></script>
 </body>
 
 </html>

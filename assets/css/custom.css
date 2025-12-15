@@ -554,3 +554,111 @@ a:hover {
 .mb-large {
     margin-bottom: 3rem;
 }
+
+/* ============================================
+   LANGUAGE SWITCHER
+   ============================================ */
+.language-switcher {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    z-index: 1000;
+}
+
+.lang-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    background: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lang-toggle:hover {
+    background: var(--dark-bg-tertiary);
+    border-color: var(--electric-cyan);
+    box-shadow: 0 0 20px var(--electric-cyan-glow);
+}
+
+.lang-flag {
+    font-size: 1.25rem;
+}
+
+.lang-code {
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.lang-toggle i {
+    font-size: 0.75rem;
+    transition: transform 0.3s ease;
+}
+
+.lang-toggle[aria-expanded="true"] i {
+    transform: rotate(180deg);
+}
+
+.lang-menu {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    min-width: 180px;
+    background: var(--dark-bg-secondary);
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lang-menu li {
+    margin: 0;
+}
+
+.lang-menu a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-left: 3px solid transparent;
+}
+
+.lang-menu a:hover {
+    background: var(--dark-bg-tertiary);
+    border-left-color: var(--electric-cyan);
+    padding-left: 1.5rem;
+}
+
+.lang-menu a.active {
+    background: var(--dark-bg-tertiary);
+    border-left-color: var(--electric-cyan);
+    color: var(--electric-cyan);
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+    .language-switcher {
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .lang-toggle {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .lang-code {
+        display: none; /* Show only flag on mobile */
+    }
+}

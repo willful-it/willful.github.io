@@ -1,0 +1,63 @@
+# Willful IT - Translations (Portuguese PT + English)
+
+hero:
+  company_name:
+    pt: "WILLFUL <span class='highlight-it'>IT</span>"
+    en: "WILLFUL <span class='highlight-it'>IT</span>"
+  slogan:
+    pt: "INTENCIONAIS.DESAFIADORES.PERSEVERANTES"
+    en: "INTENTIONAL.DEFIANT.PERSEVERANT"
+  tagline:
+    pt: "Fazemos <span class='highlight'>infraestrutura cloud</span> para o teu negócio. Em <span class='highlight'>todas as regiões AWS</span> pelo mundo, com <span class='highlight'>Kubernetes</span>, acelerado por <span class='highlight'>IA</span>."
+    en: "We build <span class='highlight'>cloud infrastructure</span> for your business. In <span class='highlight'>all AWS regions</span> worldwide, with <span class='highlight'>Kubernetes</span>, accelerated by <span class='highlight'>AI</span>."
+  cta:
+    pt: "Fala Connosco"
+    en: "Talk to Us"
+
+services:
+  title:
+    pt: "O Que Fazemos"
+    en: "What We Do"
+  aws_title:
+    pt: "AWS Cloud"
+    en: "AWS Cloud"
+  aws_description:
+    pt: "Gerimos infraestrutura em todas as regiões AWS. Desde um serviço simples até arquitecturas multi-região que aguentam milhões de pedidos."
+    en: "We manage infrastructure across all AWS regions. From a simple service to multi-region architectures that handle millions of requests."
+  k8s_title:
+    pt: "Kubernetes"
+    en: "Kubernetes"
+  k8s_description:
+    pt: "Orquestração de containers que funciona a sério. Temos clusters de produção a correr 24/7 sem complicações."
+    en: "Container orchestration that actually works. We have production clusters running 24/7 without complications."
+  ai_title:
+    pt: "Desenvolvimento com IA"
+    en: "AI Development"
+  ai_description:
+    pt: "Usamos ferramentas de IA para escrever código melhor e mais rápido. Lançamos features em dias, não em meses, sem comprometer qualidade."
+    en: "We use AI tools to write better code faster. We ship features in days, not months, without compromising quality."
+
+about:
+  title:
+    pt: "A Nossa História"
+    en: "Our Story"
+  paragraph1:
+    pt: "Depois de 20 anos a fazer sistemas para telcos, plataformas de trading de commodities e instituições financeiras, começámos a Willful IT em 2019."
+    en: "After 20 years building systems for telcos, commodities trading platforms, and financial institutions, we started Willful IT in 2019."
+  paragraph2:
+    pt: "Vimos demasiados projectos a falhar porque a infraestrutura era deixada para depois. Demasiadas equipas a debater-se com a complexidade da cloud. Demasiado dinheiro deitado fora em soluções complicadas que ninguém precisava."
+    en: "We saw too many projects fail because infrastructure was left for later. Too many teams struggling with cloud complexity. Too much money wasted on complicated solutions that nobody needed."
+  paragraph3:
+    pt: "Por isso criámos a Willful IT à volta de três princípios: Ser <span class='highlight'>intencional</span> no que se faz. Ser <span class='highlight'>desafiador</span> quando dizem \"sempre se fez assim\". Ser <span class='highlight'>perseverante</span> nos momentos difíceis."
+    en: "So we built Willful IT around three principles: Be <span class='highlight'>intentional</span> about what you do. Be <span class='highlight'>defiant</span> when they say \"it's always been done this way.\" Be <span class='highlight'>perseverant</span> in difficult moments."
+  paragraph4:
+    pt: "Trabalhamos com empresas que precisam de infraestrutura em que possam confiar mesmo."
+    en: "We work with companies that need infrastructure they can truly rely on."
+
+contact:
+  title:
+    pt: "Vamos fazer sistemas que funcionam?"
+    en: "Ready to build systems that work?"
+  cta:
+    pt: "Fala connosco"
+    en: "Talk to us"

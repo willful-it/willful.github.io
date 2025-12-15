@@ -8,11 +8,11 @@ layout: front
     <div class="hero-body">
         <div class="container has-text-centered">
             <div class="hero-content">
-                <h1 class="company-name">WILLFUL <span class="highlight-it">IT</span></h1>
-                <p class="slogan">INTENTIONAL.DEFIANT.PERSEVERANT</p>
-                <p class="tagline">We build <span class="highlight">cloud infrastructure</span> to support your business. Running in <span class="highlight">all AWS regions</span> worldwide, orchestrated with <span class="highlight">Kubernetes</span>, accelerated by <span class="highlight">AI</span>.</p>
+                <h1 class="company-name" data-i18n="hero.company_name">WILLFUL <span class="highlight-it">IT</span></h1>
+                <p class="slogan" data-i18n="hero.slogan">INTENCIONAIS.DESAFIADORES.PERSEVERANTES</p>
+                <p class="tagline" data-i18n="hero.tagline">Fazemos <span class="highlight">infraestrutura cloud</span> para o teu negócio. Em <span class="highlight">todas as regiões AWS</span> pelo mundo, com <span class="highlight">Kubernetes</span>, acelerado por <span class="highlight">IA</span>.</p>
                 <a href="mailto:info@willful.pt" class="cta-button">
-                    <i class="fas fa-envelope"></i> Get in Touch
+                    <i class="fas fa-envelope"></i> <span data-i18n="hero.cta">Fala Connosco</span>
                 </a>
             </div>
         </div>
@@ -25,27 +25,27 @@ layout: front
 <!-- Services Section -->
 <section class="services-section">
     <div class="container">
-        <h2 class="section-title">What We Do</h2>
+        <h2 class="section-title" data-i18n="services.title">O Que Fazemos</h2>
         <div class="columns is-multiline">
             <div class="column is-4">
                 <div class="service-card">
                     <i class="fab fa-aws service-icon"></i>
-                    <h3>AWS Cloud</h3>
-                    <p>We deploy and manage infrastructure across all AWS regions globally. From a single service to multi-region architectures that handle millions of requests.</p>
+                    <h3 data-i18n="services.aws_title">AWS Cloud</h3>
+                    <p data-i18n="services.aws_description">Gerimos infraestrutura em todas as regiões AWS. Desde um serviço simples até arquitecturas multi-região que aguentam milhões de pedidos.</p>
                 </div>
             </div>
             <div class="column is-4">
                 <div class="service-card">
                     <i class="fas fa-dharmachakra service-icon"></i>
-                    <h3>Kubernetes</h3>
-                    <p>Container orchestration that actually works. We've deployed production clusters that run 24/7 without the headaches.</p>
+                    <h3 data-i18n="services.k8s_title">Kubernetes</h3>
+                    <p data-i18n="services.k8s_description">Orquestração de containers que funciona a sério. Temos clusters de produção a correr 24/7 sem complicações.</p>
                 </div>
             </div>
             <div class="column is-4">
                 <div class="service-card">
                     <i class="fas fa-brain service-icon"></i>
-                    <h3>AI-Powered Development</h3>
-                    <p>Using AI tools to write better code faster. We ship features in days, not months, while maintaining quality.</p>
+                    <h3 data-i18n="services.ai_title">Desenvolvimento com IA</h3>
+                    <p data-i18n="services.ai_description">Usamos ferramentas de IA para escrever código melhor e mais rápido. Lançamos features em dias, não em meses, sem comprometer qualidade.</p>
                 </div>
             </div>
         </div>
@@ -56,11 +56,11 @@ layout: front
 <section class="about-section">
     <div class="container">
         <div class="about-content">
-            <h2 class="section-title">Our Story</h2>
-            <p>After 20 years building systems for telcos, commodities trading platforms, and financial institutions, we started Willful IT in 2019.</p>
-            <p>We'd seen too many projects fail because infrastructure was an afterthought. Too many teams struggling with cloud complexity. Too much money wasted on over-engineered solutions that nobody needed.</p>
-            <p>So we built Willful IT around three principles: Be <span class="highlight">intentional</span> about what you build. Be <span class="highlight">defiant</span> when everyone says "that's how it's always been done." Be <span class="highlight">perseverant</span> when things break at 3am.</p>
-            <p>We work with businesses that need infrastructure they can actually rely on.</p>
+            <h2 class="section-title" data-i18n="about.title">A Nossa História</h2>
+            <p data-i18n="about.paragraph1">Depois de 20 anos a fazer sistemas para telcos, plataformas de trading de commodities e instituições financeiras, começámos a Willful IT em 2019.</p>
+            <p data-i18n="about.paragraph2">Vimos demasiados projectos a falhar porque a infraestrutura era deixada para depois. Demasiadas equipas a debater-se com a complexidade da cloud. Demasiado dinheiro deitado fora em soluções complicadas que ninguém precisava.</p>
+            <p data-i18n="about.paragraph3">Por isso criámos a Willful IT à volta de três princípios: Ser <span class="highlight">intencional</span> no que se faz. Ser <span class="highlight">desafiador</span> quando dizem "sempre se fez assim". Ser <span class="highlight">perseverante</span> nos momentos difíceis.</p>
+            <p data-i18n="about.paragraph4">Trabalhamos com empresas que precisam de infraestrutura em que possam confiar mesmo.</p>
         </div>
     </div>
 </section>
@@ -68,16 +68,13 @@ layout: front
 <!-- Contact Section -->
 <section class="contact-section">
     <div class="container">
-        <h2>Ready to build something that works?</h2>
+        <h2 data-i18n="contact.title">Vamos fazer sistemas que funcionam?</h2>
         <a href="mailto:info@willful.pt" class="cta-button">
-            <i class="fas fa-envelope"></i> Get in touch
+            <i class="fas fa-envelope"></i> <span data-i18n="contact.cta">Fala connosco</span>
         </a>
         <div class="contact-links">
             <a href="mailto:info@willful.pt" class="contact-link">
                 <i class="fas fa-envelope"></i> info@willful.pt
-            </a>
-            <a href="mailto:imobiliario@willful.pt" class="contact-link">
-                <i class="fas fa-envelope"></i> imobiliario@willful.pt
             </a>
         </div>
     </div>
